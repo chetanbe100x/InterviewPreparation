@@ -1,0 +1,13 @@
+name: interviewPrep
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - python-dotenv=1.0.0
+  - streamlit=1.32.0
+  - requests=2.31.0
+  - pip:
+    - ollama==0.1.6
+    - google-generativeai==0.3.2
